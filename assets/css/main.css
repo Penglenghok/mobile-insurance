@@ -1,0 +1,188 @@
+/****************************************************************************
+////////////////////////////////////////////////////////////////////////////////
+* 	Blog Default
+////////////////////////////////////////////////////////////////////////////////
+*****************************************************************************/
+*{margin: 0;padding: 0;overflow: hidden;}
+body{font-size: 14px !important;font-family: Arial !important;color: black !important;background: #FFFFFF;overflow-x: hidden;}
+.wrapper{width:100%;margin: 0 auto;}
+#header, #content, #footer{overflow-x: hidden !important;}
+/****************************************************************************
+////////////////////////////////////////////////////////////////////////////////
+* 	Blog Header
+////////////////////////////////////////////////////////////////////////////////
+*****************************************************************************/
+.item-center{display: flex;align-items: center;justify-content: center;display: -webkit-box;-webkit-box-pack: center; /* justify-content */-webkit-box-align: center; /* align-items */}
+/*change style slick dots*/
+.slick-dots{bottom: 10%;}
+.dots-ecam,.dots-ecam2{position: absolute;display: flex;bottom: 10%;width: 100%;justify-content: center;display: -webkit-box;-webkit-box-pack: center; /* justify-content *//*-webkit-box-align: center; /* align-items */*/}
+.dots-ecam li,.dots-ecam2 li {display: inline-block;list-style: none;margin-right: 10px;}
+.dots-ecam li:last-child,.dots-ecam2 li:last-child{margin-right: 0;}
+.dots-ecam li button,.dots-ecam2 li button{width: 8px;height: 8px;border: none;cursor: pointer;/*background-color: rgba(210,237,250,1);*/border-radius: 50%;padding: 0;background: none;border: 1px solid white;}
+
+.dots-ecam li.slick-active button,.dots-ecam2 li.slick-active button,#footer .slick-partner .dots-ecam li.slick-active button{background-color: #32CF9D;border: 1px solid #32CF9D;width: 9px;height: 9px;}
+.box-btn{width: 100%;}
+.btn-1{background: none;height: 40px;width: 168px;border: none;text-transform: uppercase;color: #2F3033;border: 1px solid #2F3033;transition: 0.3s;cursor: pointer;}
+.btn-1:hover{background-color: black;color: white;}
+/*humberger menu*/
+.hamburger-menu{display: inline-block;cursor: pointer;float: left;}
+.bar1, .bar2, .bar3 {width: 25px;height: 1px;background-color: white;margin: 5px 0;transition: 0.4s;}
+.change-hamburger-menu .bar1 {-webkit-transform: rotate(-45deg) translate(-6px, 6px);transform: rotate(-45deg) translate(-3px, 3px);}
+.change-hamburger-menu .bar2 {opacity: 0;}
+.change-hamburger-menu .bar3 {-webkit-transform: rotate(45deg) translate(-6px, -6px);transform: rotate(45deg) translate(-6px, -6px);}
+#header .container-cus{position: fixed !important;width: 100%;top: 0;z-index: 20;}
+/*start header*/
+#header .container-cus2{background-color: #074E84;
+    padding-left: 18px;width: 100%;height: 45px;display: flex;justify-content: space-between;align-items: center;display: -webkit-flex;-webkit-justify-content: space-between;-webkit-align-items: center;}
+#header .box-logo-hamberger{
+    display: flex;justify-content: space-between;align-items: center;
+    display: -webkit-flex;-webkit-justify-content: space-between;-webkit-align-items: center;
+}
+#header .logo{height: 35px;transition: 0.5s;overflow: hidden;margin-left: 18px;margin-right: 18px;float: left;}
+#header .logo img{height: 100%;}
+#header .title-header{color: white;text-transform: uppercase;}
+.clear{clear: both;}
+.ul-media-share{padding: 0;margin: 0;list-style: none;margin-top: 15px;}
+.ul-media-share li{display: inline-block;}
+.ul-media-share li a{display: block;height: 27px;width: 27px;background-color: #F29022;border-radius: 50%;overflow: hidden;text-align: center;display: table-cell;vertical-align: middle;transition: 0.3s;padding: 0 !important;}
+.ul-media{padding: 0;margin: 0;list-style: none;margin-right: 18px;margin-top: 3px;}
+.ul-media-f{margin-right: 10px !important;}
+.ul-media li{display: inline-block;height: 25px;width: 25px;border-radius: 50%;overflow: hidden;text-align: center;margin-left: 10px;}
+.ul-media li a{display: block;transition: 0.3s;padding: 0 !important;width: 100%;height: 100%;}
+.ul-media li a img{height: auto;width: auto;max-height: 100%;}
+#header nav{position: fixed;top: 0;left: 0;width: 100%;}
+#header nav .menu-side-bar{padding: 0;margin: 0;list-style: none;height: 100%;background-color: white;position: fixed;top: 0;left: 0;z-index: 0;display: none;}
+#header nav .sidebar-head{background-color: #074E84;height: 150px;width: 90%;}
+#header nav .sidebar-logo{height: 125px;}
+#header nav .sidebar-logo img{height: 100%;}
+#header nav .menu-side-bar li{float: left;width: 100%;border-bottom: 1px solid #e0e0e0;}
+#header nav .menu-side-bar li a{display: block;font-size: 16px;padding: 15px;padding-left: 20px;padding-right: 20px;text-decoration: none;text-transform: uppercase;color: black;}
+#header nav .menu-side-bar li a.active{color: #074E84;}
+#header nav .menu-side-bar li a:hover {color: #074E84}
+/****************************************************************************
+////////////////////////////////////////////////////////////////////////////////
+* 	Blog Content
+////////////////////////////////////////////////////////////////////////////////
+*****************************************************************************/
+.bg-cover{position: absolute;width: 100%;height: 100%;top: 0;left: 0;background-color: rgba(0,0,0,0.3);}
+/*banner pages*/
+#content .banner-pages{height: 414px;position: relative;display: flex;align-items: center;text-align: center;}
+#content .banner-pages .carousel-caption{top: inherit;left: inherit;right: inherit;bottom: inherit;width: 100%;margin: auto;padding: 0 80px;}
+#content .banner-pages .carousel-caption h1{font-size: 25px;}
+#content .banner-pages img{width: 100%;height: 100%;object-fit: cover;}
+
+/****************************************************************************
+////////////////////////////////////////////////////////////////////////////////
+* 	Blog Footer
+////////////////////////////////////////////////////////////////////////////////
+*****************************************************************************/
+/*statistic*/
+#footer .statistic {
+    height: 674px;
+    width: 100%;
+    background-image:url("../img/Elite-Insurance-Brokers-Cambodia-homepage-Fact-01.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+}
+#footer .statistic h2{
+    color: white;
+    padding: 0 70px;
+    margin-top: 50px;
+    text-align: center;
+    font-size: 25px;
+}
+#footer .statistic .number{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+  padding: 0 15px;
+}
+
+#footer .statistic .number .item{
+    position: relative;
+margin-top: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    flex: 1;
+    flex-basis: calc(100%/2);
+
+}
+#footer .statistic .number .item .box-img{
+    width: 80px;
+    height: 80px;
+    position: relative;
+}
+
+#footer .statistic .number .item .box-img img{
+    width: 100%;
+    height: 100%;
+}
+
+#footer .statistic .number .item .box-img h1{
+    position: absolute;
+    margin: 0;
+  bottom: 0;
+    left: 5px;
+ color: white;
+}
+
+#footer .statistic .number .item p{
+    margin-top: 10px;
+    color: white;
+    padding: 0 35px;
+    text-align: center;
+}
+
+
+/* partner */
+#footer .partner{
+    background-color: #EFEFEF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px 10px;
+}
+#footer .partner h2{
+    font-size: 18px;
+    color: #CD0637;
+}
+#footer .partner .partner-member img{
+    width: 87px !important;
+    height: 65px;
+}
+
+
+/*overview*/
+#footer .overview{padding-top: 30px;background-color:#074E84;}
+#footer .overview .logo{height: 85px;text-align: center;}
+#footer .overview .logo img{height: 100%;}
+#footer .contact {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 0 30px;
+    text-align: center;
+    color: white;
+}
+
+#footer .contact .address{
+    margin-top: 50px;
+}
+#footer .contact .phone{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+/* footer-bottom */
+#footer .footer-bottom{float: left;width: 100%;font-size: 12px;line-height: 25px;text-align: center;padding-bottom:30px;background-color: #074E84;color: white;}
+
+
+#footer .footer-bottom a{
+    color:white;
+}

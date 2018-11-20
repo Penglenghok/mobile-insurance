@@ -1,0 +1,15 @@
+/****************************************************************************
+////////////////////////////////////////////////////////////////////////////////
+* 	Blog Content
+////////////////////////////////////////////////////////////////////////////////
+*****************************************************************************/
+
+/*herro banner*/
+#content .container-content,#footer .container-footer{background-color: white;height: auto;width: 100%;}
+#content .sub-banner{overflow: hidden;}
+#content .sub-banner img{height: 100%;width: 100%;object-fit: cover;}
+#content .sub-banner .carousel-caption h1{font-size: 25px;color: white;}
+.carousel-indicators li{background-color: white;border: solid 1px  #074E84}
+.carousel-indicators li.active{background-color: #074E84;}
+/*end herro banner*/
+
