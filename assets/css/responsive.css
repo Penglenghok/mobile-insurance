@@ -21,4 +21,25 @@
        #footer .statisic .box-img{width: 133px;padding-left: 10px;}
        /*footer contact*/
        #footer .contact ul li span:last-child{width: 78%;}
+
+       #footer .partner .partner-member img{
+        width: 80px !important;
+        height: 60px;
+    
+     padding: 0px 5px;
+    }
+
+
+/* home overview */
+    #content .overview h1{
+        padding:0 60px;
+    }
+}
+
+@media (min-width:375px) and (max-width:375px){
+        #content .overview h1{
+
+                padding:0 100px;
+           
+            }
 }

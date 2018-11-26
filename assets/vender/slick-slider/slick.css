@@ -100,7 +100,10 @@
 }
 .slick-initialized .slick-slide
 {
-    display: block;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
 .slick-loading .slick-slide
 {

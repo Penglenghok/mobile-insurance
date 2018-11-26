@@ -7,12 +7,10 @@
 	<link rel="stylesheet" type="text/css" href="assets/vender/animate.min.css">
 	<link rel="stylesheet" type="text/css" href="assets/css/main.css">
 	<link rel="stylesheet" type="text/css" href="assets/vender/slick-slider/slick.css">
-
 	<link rel="stylesheet" type="text/css" href="assets/css/content-home.css">
 	<link rel="stylesheet" type="text/css" href="assets/css/responsive.css">
 	<script type="text/javascript" src="assets/js/jquery.js"></script>
 	<script type="text/javascript" src="assets/vender/slick-slider/slick.min.js"></script>
-
 	<script type="text/javascript" src="assets/vender/wow.min.js"></script>
 	<script>
 	    new WOW().init();

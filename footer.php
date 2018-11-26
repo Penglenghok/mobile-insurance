@@ -41,42 +41,45 @@
 					</div>
 				</div>
 			</div><!-- end-statisic -->
-
 				<div class="partner">
 					<h2>Our Corporate Partners</h2>
 					<div class="partner-member">
 					<div><img src="assets/img/Elite-Insurance-Brokers-Cambodia-Partner-01.jpg" alt=""></div>
+					<div><img src="assets/img/Elite-Insurance-Brokers-Cambodia-Partner-02.jpg" alt=""></div>
+					<div><img src="assets/img/Elite-Insurance-Brokers-Cambodia-Partner-03.jpg" alt=""></div>
+					<div><img src="assets/img/Elite-Insurance-Brokers-Cambodia-Partner-04.jpg" alt=""></div>
+					<div><img src="assets/img/Elite-Insurance-Brokers-Cambodia-Partner-05.jpg" alt=""></div>
+					<div><img src="assets/img/Elite-Insurance-Brokers-Cambodia-Partner-06.jpg" alt=""></div>
+					<div><img src="assets/img/Elite-Insurance-Brokers-Cambodia-Partner-07.jpg" alt=""></div>
+					<div><img src="assets/img/Elite-Insurance-Brokers-Cambodia-Partner-08.jpg" alt=""></div>
 					<div><img src="assets/img/Elite-Insurance-Brokers-Cambodia-Partner-01.jpg" alt=""></div>
-					<div><img src="assets/img/Elite-Insurance-Brokers-Cambodia-Partner-01.jpg" alt=""></div>
-					<div><img src="assets/img/Elite-Insurance-Brokers-Cambodia-Partner-01.jpg" alt=""></div>
-					<div><img src="assets/img/Elite-Insurance-Brokers-Cambodia-Partner-01.jpg" alt=""></div>
-					<div><img src="assets/img/Elite-Insurance-Brokers-Cambodia-Partner-01.jpg" alt=""></div>
-					<div><img src="assets/img/Elite-Insurance-Brokers-Cambodia-Partner-01.jpg" alt=""></div>
-					<div><img src="assets/img/Elite-Insurance-Brokers-Cambodia-Partner-01.jpg" alt=""></div>
+					<div><img src="assets/img/Elite-Insurance-Brokers-Cambodia-Partner-02.jpg" alt=""></div>
+					<div><img src="assets/img/Elite-Insurance-Brokers-Cambodia-Partner-03.jpg" alt=""></div>
+					<div><img src="assets/img/Elite-Insurance-Brokers-Cambodia-Partner-04.jpg" alt=""></div>
+					<div><img src="assets/img/Elite-Insurance-Brokers-Cambodia-Partner-05.jpg" alt=""></div>
+					<div><img src="assets/img/Elite-Insurance-Brokers-Cambodia-Partner-06.jpg" alt=""></div>
+					<div><img src="assets/img/Elite-Insurance-Brokers-Cambodia-Partner-07.jpg" alt=""></div>
+					<div><img src="assets/img/Elite-Insurance-Brokers-Cambodia-Partner-08.jpg" alt=""></div>
+					
 					</div>
 				</div>
-
 			<div class="overview">
 				<div class="logo">
 					<img src="assets/img/icon/Elite-Insurance-Brokers-Cambodia-logo-footer-01.jpg" alt="">
 				</div>
-
 				<div class="contact">
 					<div class="address">
 						<p>No. 294, Street 271, Sangkat Tomnub Toek,
 							Khan Chamkamorn, Phnom Penh, Cambodia.</p>
 					</div>
-
 					<div class="phone">
 						<p>+855 23 901 488</p>
 						<p>+855 12 440 070</p>
 						<p>info@elitebrokerscam.com</p>
 						<p>www.elitebrokerscam.com</p>
 					</div>
-
 				</div>
 			</div>
-
 			<div class="footer-bottom">
 				<p>© 2018. All rights reserved</p>
 				<p>Elite Insurance Brokers PLC. - <a href="">Site Map</a></p>
@@ -86,10 +89,7 @@
 	</div>
 </div><!-- end-footer -->
 </body>
-
 </html>
-
 <script type="text/javascript" src="assets/js/bootstrap.min.js"></script>
 <script type="text/javascript" src="assets/js/carouselswipe.js"></script>
-<script type="text/javascript" src="assets/vender/slick-slider/slick.min.js"></script>
 <script type="text/javascript" src="assets/js/main.js"></script>

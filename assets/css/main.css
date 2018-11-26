@@ -3,9 +3,40 @@
 * 	Blog Default
 ////////////////////////////////////////////////////////////////////////////////
 *****************************************************************************/
-*{margin: 0;padding: 0;overflow: hidden;}
-body{font-size: 14px !important;font-family: Arial !important;color: black !important;background: #FFFFFF;overflow-x: hidden;}
+*{margin: 0;padding: 0;overflow-x: hidden;}
+body{font-size: 14px !important;font-family: Tahoma !important;color: black !important;background: #FFFFFF;overflow-x: hidden;}
 .wrapper{width:100%;margin: 0 auto;}
+h1{
+    font-size: 18px;
+}
+h1,h2{
+    font-weight: 500;
+}
+p{
+    font-size: 14px;
+}
+
+/* .umbrella{
+    background-image: url('../img/umbrella.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    margin: 0 15px;
+} */
+.black-layer{
+    background: rgba(0, 0, 0, 0.3);
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+ 
+}
+
 #header, #content, #footer{overflow-x: hidden !important;}
 /****************************************************************************
 ////////////////////////////////////////////////////////////////////////////////
@@ -155,6 +186,12 @@ margin-top: 70px;
 #footer .partner .partner-member img{
     width: 87px !important;
     height: 65px;
+
+    padding-top: 10px;
+}
+
+#footer .partner .partner-member{
+    width: 100%;
 }
 
 
@@ -185,4 +222,23 @@ margin-top: 70px;
 
 #footer .footer-bottom a{
     color:white;
+}
+
+#footer .partner-dot{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#footer .partner-dot button{
+    width: 10px;
+    height: 10px;
+    margin:0 2px;
+    border-radius: 50%;
+    background-color: white;
+    border: 1px solid #025181;
+}
+
+#footer .partner-dot .slick-active button{
+    background-color: #025181;
 }

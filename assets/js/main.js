@@ -129,6 +129,16 @@ $(document).ready(function() {
 
     $('.partner-member').slick({
         slidesToShow: 4,
-        slidesToScroll: 1,
+        slidesToScroll: 4,
+        rows:2,
+        infinite:true,
+        arrows:false,
+        dots:true,
+        dotsClass:'partner-dot',
+        autoplay:true,
+        autoplaySpeed:3000
     });
+
+    $('.partner-dot li button').text('');
+
 });

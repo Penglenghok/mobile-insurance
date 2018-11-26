@@ -13,3 +13,138 @@
 .carousel-indicators li.active{background-color: #074E84;}
 /*end herro banner*/
 
+
+/* overview */
+#content .overview{
+    background-color: #EFEFEF;
+    padding-bottom: 50px;
+}
+
+#content .overview h1{
+    text-align: center;
+    padding: 0 120px;
+    color: #CD0637;
+    margin-top:50px;
+}
+
+#content .overview p{
+    text-align: center;
+    margin-top: 30px;
+    padding: 0 30px;
+    line-height: 25px;
+}
+
+#content .overview .item{
+    margin-top: 50px;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+#content .overview .item img{
+    flex: 1;
+    width: 60px;
+    height: 60px;
+}
+
+#content .overview .item .text{
+    flex: 2;
+}
+#content .overview .item .text h2{
+    font-size: 16px;
+    color: #CD0637;
+}
+#content .overview .item .text p{
+    margin-top: 5px;
+    text-align: left;
+   padding: 0;
+   margin-right: 30px;
+}
+
+/* end of overview */
+
+/* menu */
+#content .menu {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+#content .menu .item {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px 15px;
+    flex-direction: column;
+}
+
+#content .menu .item img{
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+}
+
+#content .menu a .item .umbrella{
+        background-image: url('../img/umbrella.png');
+        background-size: cover;
+        background-repeat: no-repeat;
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        top: 0;
+        z-index: 1;
+    }
+
+    #content .menu a:nth-child(even) .item .umbrella{
+        transform:scaleX(-1);
+    }
+
+    #content .menu .item p{
+        position:absolute;
+        bottom:30px;
+        color: white;
+        z-index: 2;
+        padding: 0 150px;
+        text-align: center;
+        font-size: 14px;
+    }
+
+
+#content .menu .mini-item{
+    margin: 10px 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+  
+}
+#content .menu .mini-item a{
+    flex:1;
+}
+
+#content .menu .mini-item .box{
+    display: flex;
+   position: relative;
+    justify-content: center;
+    align-items: center;
+    height: 134px;
+}
+
+#content .menu .mini-item .box:first-child{
+    margin-right: 5px;
+}
+#content .menu .mini-item .box:last-child{
+    margin-left: 5px;
+}
+#content .menu .mini-item img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+#content .menu .mini-item p{
+    position: absolute;
+    color:white;
+}
+/* end of menu */
+
+
+
