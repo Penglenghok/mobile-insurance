@@ -65,6 +65,7 @@ align-items: center;
 
 /* menu */
 #content .menu {
+    background-color: white;
     padding-top: 50px;
     padding-bottom: 50px;
 }

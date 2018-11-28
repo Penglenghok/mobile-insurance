@@ -7,7 +7,6 @@
 	<link rel="stylesheet" type="text/css" href="assets/vender/animate.min.css">
 	<link rel="stylesheet" type="text/css" href="assets/css/main.css">
 	<link rel="stylesheet" type="text/css" href="assets/vender/slick-slider/slick.css">
-	<link rel="stylesheet" type="text/css" href="assets/css/content-home.css">
 	<link rel="stylesheet" type="text/css" href="assets/css/responsive.css">
 	<script type="text/javascript" src="assets/js/jquery.js"></script>
 	<script type="text/javascript" src="assets/vender/slick-slider/slick.min.js"></script>
@@ -32,7 +31,6 @@
 						</div>
 						<span class="title-header">home</span>
 					</div>
-					
 					<ul class="ul-media">
 						<li><a href="#" title=""><img src="assets/img/icon/facebook.svg" alt=""></a></li>
 						<li><a href="#" title=""><img src="assets/img/icon/youtube.svg" alt=""></a></li>
@@ -46,13 +44,12 @@
 							<img src="assets/img/icon/Elite-Insurance-Brokers-Cambodia-logo-01.jpg" alt="">
 						</div>
 					</div>
-					<li><a href="index.php" title="">home</a></li>
-					<li><a href="content-location.php" title="">loacation</a></li>
-					<li><a href="content-floor-plans.php" title="">floor plans</a></li>
-					<li><a href="content-interiors.php" title="">interiors</a></li>
-					<li><a href="content-amenties.php" title="">amenties</a></li>
-					<li><a href="content-developer.php" title="">developer</a></li>
-					<li><a href="content-contact.php" title="">contact</a></li>
+					<li><a href="index.php" title="">HOME</a></li>
+					<li><a href="content-about.php" title="">WHO WE ARE</a></li>
+					<li><a href="content-personal-line.php" title="">PERSONAL LINE</a></li>
+					<li><a href="content-commercial-line.php" title="">COMMERCIAL LINE</a></li>
+					<li><a href="content-contact.php" title="">WHERE TO FIND US</a></li>
+					<li><a href="content-career.php" title="">CAREER</a></li>
 				</ul>
 			</nav>
 		</div>

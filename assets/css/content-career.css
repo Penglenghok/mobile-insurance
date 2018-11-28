@@ -1,0 +1,111 @@
+
+#career{
+	background-color: white;
+}
+#career .overview .text{
+	padding:0 30px;
+}
+
+#career .overview .text .title {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+#career .overview .text .title img{
+	width: 18px;
+	height:24px;
+}
+
+#career .overview .text .title h3{
+	color:#074E84;
+	font-weight: bold;
+	padding-top: 30px;
+	margin-top: 10px;
+	margin-left: 5px;
+	font-size: 18px;
+}
+#career .overview .text .subtitle{
+
+}
+#career  .overview .text .subtitle p{
+	margin-top: 20px;
+	line-height: 25px;
+}
+#career .career{
+	margin-top: 20px;
+}
+#career .career-title .title{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 10px 0;
+}
+#career .career-title h3{
+	font-weight: bold;
+	font-size: 16px;
+	text-align: center;
+	color: #074E84;
+}
+#career .career-title a{
+	text-decoration: none;
+}
+
+#career  .career-title .text{
+	margin-top:10px;
+
+	padding:0 30px;
+
+}
+
+#career .career-title .text .text-row{
+	display: flex;
+
+}
+
+#career .career-title .text .text-row p{
+	flex:1;
+	margin-top: 5px;
+	margin-bottom: 0;
+}
+
+#career .job-desc h3{
+	font-size: 14px;
+	color: #074E84;
+	padding: 15px;
+}
+
+#career .job-desc{
+	padding: 0 30px;
+	line-height: 20px;
+	text-align: center;
+	margin-top: 20px;
+
+}
+
+#career .job-res{
+	padding: 0 50px;
+
+}
+#career .job-res h3{
+	text-align: center;
+	font-size: 14px;
+	color: #074E84;
+	padding: 15px;
+}
+
+
+#career .job-res ul{
+	padding: 0px;
+	margin:0;
+		overflow-x: visible !important; 
+		border-bottom: 1px solid #e0e0e0;
+		padding-bottom: 20px !important;
+}
+
+#career .job-res ul li{
+ 	padding-top: 5px;
+ 	line-height: 20px;
+ 		overflow-x: visible !important; 
+
+}

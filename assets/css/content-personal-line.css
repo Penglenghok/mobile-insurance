@@ -1,0 +1,101 @@
+#content .overview{
+
+}
+
+
+#content .overview .box-img{
+    width: 414px;
+    height: 414px;
+    position: relative;
+}
+
+#content .overview .box-img img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+#content .overview .text {
+background-color: #EFEFEF;
+padding: 50px 0;
+}
+#content .overview .text h1{
+    text-align: center;
+    color: #074E84;
+}
+
+#content .overview .text p{
+    text-align: center;
+    margin-top: 30px;
+    line-height: 25px;
+    padding: 0 50px;
+}
+
+
+
+/* line */
+#content .line {
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-bottom: 50px;
+}
+#content .line .item{
+    padding: 0 15px;
+    margin-top: 50px;
+}
+
+#content .line .item:first-child{
+    margin-top: 15px;
+}
+#content .line .item .box-img{
+position: relative;
+height: 250px;
+}
+
+#content .line .item .box-img .umbrella{
+    background-image: url('../img/umbrella.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+    transform: scaleX(-1);
+    position: absolute;
+    top: 0;
+    z-index: 1;
+}
+
+#content .line .item:nth-child(even) .box-img .umbrella{
+    transform: scaleX(1);
+}
+
+#content .line .item .box-img img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+#content .line .item .box-img .text{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 2;
+}
+
+#content .line .item .box-img .text h1{
+    color: white;
+    font-size: 25px;
+    padding: 0 50px;
+    text-align: center;
+}
+
+#content .line .item p{
+    margin-top: 30px;
+    text-align: center;
+    line-height: 25px;
+}

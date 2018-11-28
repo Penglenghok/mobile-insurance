@@ -75,15 +75,16 @@
 					<div class="phone">
 						<p>+855 23 901 488</p>
 						<p>+855 12 440 070</p>
-						<p>info@elitebrokerscam.com</p>
-						<p>www.elitebrokerscam.com</p>
+					
+						<a href="mailto:info@elitebrokerscam.com"><p>info@elitebrokerscam.com</p>	</a>
+						<a href="https://elitebrokerscam.com"><p>www.elitebrokerscam.com</p></a>
 					</div>
 				</div>
 			</div>
 			<div class="footer-bottom">
 				<p>© 2018. All rights reserved</p>
 				<p>Elite Insurance Brokers PLC. - <a href="">Site Map</a></p>
-				<p>Developed by: TomnerbTECH </p>
+				<p>Developed by: <a href="http://tomnerbtech.com">TomnerbTECH</a></p>
 			</div>
 		</div>
 	</div>
